@@ -1,0 +1,40 @@
+/* [怨듯넻] �쎌뒪 �ㅻ퉬寃뚯씠�� - #fixed_nav �꾩씠�붾쭔 �곸슜�섎㈃ �ъ슜媛��� */
+#fixed_nav { }
+#fixed_nav.fixed { position: fixed; z-index:80; left:0px; top:0px; width: 100%;  }
+#fixed_nav.fixed .fixed_inner {padding-left:142px;} /* tgnb 媛꾧꺽 : wrapInner濡� 媛��� 異붽��� */
+/* // [怨듯넻] �쎌뒪 �ㅻ퉬寃뚯씠�� */
+
+
+
+/* [怨듯넻] �쎌뒪 �섎떒 ���대뱶 諛곕꼫 - #fixed_ban_wide �꾩씠�붾쭔 �곸슜�섎㈃ �ъ슜媛��� */
+#fixed_ban_wide { display: block; position: fixed; left: 0; bottom: 0; z-index: 80; width: 100%; height: 100px; text-align: center; }
+#fixed_ban_wide .fixed_inner { padding-left:35px;} /* tgnb 媛꾧꺽 : wrapInner濡� 媛��� 異붽��� */
+#fixed_ban_wide .fixed_width { position: relative; width: 1050px; margin:0 auto; } /* 而⑦뀗痢� �� : fixed_width 媛��� 異붽��� */
+#fixed_ban_wide .btn_close_ban_wide { position: absolute; right:0px; top:0px; width: 25px; height: 25px; background:url('http://eng.dangi.co.kr/img/engdangi/common/btn/btn_close_fixed_wide.png') no-repeat 0px 0px;}
+#fixed_ban_wide .btn_close_ban_wide.white { position: absolute; right:0px; top:0px; width: 25px; height: 25px; background:url('http://eng.dangi.co.kr/img/engdangi/common/btn/btn_close_fixed_wide_white.png') no-repeat 0px 0px;}
+#fixed_ban_wide .btn_close_ban_wide.black { position: absolute; right:0px; top:0px; width: 25px; height: 25px; background:url('http://eng.dangi.co.kr/img/engdangi/common/btn/btn_close_fixed_wide_black.png') no-repeat 0px 0px;}
+/* // [怨듯넻] �쎌뒪 �섎떒 ���대뱶 諛곕꼫 */
+
+
+
+/* [怨듯넻] �쎌뒪 �ㅽ뙘�� - #fixed_dim �꾩씠�붿� data-cookie-name(dim_YMDHMS)瑜� �곸슜�섎㈃ �ъ슜媛���  */
+#fixed_dim { display:none; position:fixed; z-index:200; left:50%; top:140px; width:800px; margin-left:-330px; }
+#fixed_dim .fixed_inner{}
+#fixed_dim .add_a{ display:inline-block; width:800px; text-align:center; }
+#fixed_dim .add_a em{display:inline-block; position:relative; zoom:1; }
+#fixed_dim .add_a em img{ max-width:800px;min-width:400px; }
+#fixed_dim .add_b { overflow:hidden;display:block;width:100%;position:absolute;left:0;top:-30px; color:#fff; font-size:15px; font-weight:bold; }
+#fixed_dim .add_b > span{display:block;float:left;padding-right:30px;padding-top:3px;}
+#fixed_dim .add_b .btn_close_dim{float:right; padding:0 5px;height:20px; background:#000; border:1px solid #fff; color:#fff; font-size:11px;  line-height:18px;}
+.fixed_dim_bg { display: none; width: 100%; height: 100%; position: fixed; z-index: 190;  left: 0px; top: 0px; background:#000;opacity:0.8;filter:alpha(opacity=80); }
+
+
+
+/* [怨듯넻] �쎌뒪 �뚮줈�� 諛곕꼫 - .fixed_ban_floating �대옒�ㅻ쭔 �곸슜�섎㈃ �ъ슜媛���, data-cookie-name(dim_YMDHMS)�� 李⑦썑 �ъ슜�덉젙 */
+.absolute_foot { position:absolute;left:50%;top:0px;z-index:70;}
+.fixed_ban_floating { display:none; position: absolute; }
+.fixed_ban_floating.fixed { /*position:fixed; top:0px!important*/; }
+.fixed_ban_floating .btn_close_ban_floating { position: absolute;right:0px;top:0px;width:0px;height:0px;}
+.fixed_ban_floating .btn_close_ban_floating.white { position: absolute; right:0px; top:0px; width: 25px; height: 25px; background:url('http://eng.dangi.co.kr/img/engdangi/common/btn/btn_close_ban_floating_white.png') no-repeat 0px 0px;}
+.fixed_ban_floating .btn_close_ban_floating.black { position: absolute; right:0px; top:0px; width: 25px; height: 25px; background:url('http://eng.dangi.co.kr/img/engdangi/common/btn/btn_close_ban_floating_black.png') no-repeat 0px 0px;}
+/* // [怨듯넻] �쎌뒪 �뚮줈�� 諛곕꼫 */
